@@ -4,7 +4,7 @@ Aiming at the shortcomings of existing industrial fire smoke data sets in terms 
 
 # Data annotation & Enhancement
 We used the **[LabelImg](https://github.com/HumanSignal/labelImg)** tool to annotate the image data, and the samples were clearly divided into "fire" and "smoke" categories. After data cleaning, all the data is divided into training set, verification set and test set according to the ratio of 7:1:2. We apply three image enhancement algorithms to enhance the training set:
-1. Randomly selecting 15% of the images, changing the brightness of the images in the range of [0.7:1.3] and generating a new image.
+1. Randomly selecting 15% of the images, changing the brightness of the images in the range of [0.7-1.3] and generating a new image.
 2. Randomly selecting 15% of the images, flipping them horizontally once and generating a new image.
 3. Randomly selecting 10% of the images in the original image and adding fuzzy noise.
 
@@ -28,8 +28,22 @@ IFS_dataset/
 ![The data set is labeled with case and sample distribution information](https://github.com/user-attachments/assets/43a8787a-4706-447c-bd76-f545b1764d6f)
 
 # Data set linking
-In accordance with journal policy, we will share our data link after the paper is published online. Thank you for your continued attention.
+Images File:   **[https://pan.quark.cn/s/0a76663e183a](https://pan.quark.cn/s/0a76663e183a)**    提取码:WUGx
+
+Lables File:   **[https://pan.quark.cn/s/c6d1ff91bc89](https://pan.quark.cn/s/c6d1ff91bc89)**    提取码:ngkp
+
+Lables_xml File:   **[https://pan.quark.cn/s/d98657a7a721](https://pan.quark.cn/s/d98657a7a721)**    提取码:rRj9
 
 # Cite
 If you have used our data in your research work, please cite our work, thank you very much.
 
+```
+@article{IFS-DETR,
+  title={IFS-DETR: A real-time industrial fire smoke detection algorithm based on an end-to-end structured network},
+  author={Chen, JiaSheng and Han, HuiZi and Liu, Mei and Su, Peng and Chen, Xi},
+  journal={Measurement},
+  pages={115660},
+  year={2024},
+  publisher={Elsevier}
+}
+```
